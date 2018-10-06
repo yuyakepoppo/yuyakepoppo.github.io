@@ -1,0 +1,23 @@
+{
+  "name": "yuyakepoppo.github.io",
+  "version": "1.0.0",
+  "description": "yuyakepoppo web contents",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "python3 -m http.server"
+  },
+  "author": "yuyakepoppo",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "webpack": "^4.20.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.1.2"
+  }
+}
